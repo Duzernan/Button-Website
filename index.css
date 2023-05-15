@@ -9,7 +9,7 @@
 .all {
     background: linear-gradient(skyblue, beige);
     margin-top: 3rem;
-    height: 120rem;
+    height: 75rem;
 
 }
 
@@ -27,6 +27,7 @@ body {
     width: 100%;
     height: 3rem;
 
+
 }
 
 
@@ -40,7 +41,6 @@ body {
     width: 30rem;
     height: 3rem;
 
-    /* border: 1px solid black; */
 
 }
 
@@ -50,7 +50,6 @@ body {
     justify-content: center;
     align-items: center;
 
-    /* border: 1px solid red; */
 
 }
 
@@ -63,7 +62,6 @@ body {
     height: 2.7rem;
     width: 2.7rem;
 
-    /* border: 1px solid red; */
 
 }
 
@@ -74,7 +72,6 @@ body {
     height: 2.7rem;
     width: 2.7rem;
 
-    /* border: 1px solid red; */
 
 }
 
@@ -88,7 +85,6 @@ body {
     margin-right: .5rem;
     width: 8rem;
 
-    /* border: 1px solid red; */
 
 }
 
@@ -124,7 +120,6 @@ body {
     margin-right: .5rem;
     width: 9rem;
 
-    /* border: 1px solid red; */
 
 }
 
@@ -159,7 +154,6 @@ body {
     align-items: flex-end;
     width: 14rem;
 
-    /* border: 1px solid red; */
 
 }
 
@@ -195,7 +189,6 @@ body {
     margin-right: .1rem;
     width: 7rem;
 
-    /* border: 1px solid red; */
 
 }
 
@@ -231,8 +224,6 @@ body {
     margin-right: 2rem;
     width: 10rem;
 
-    /* border: 1px solid red; */
-
 }
 
 #b5 {
@@ -259,15 +250,15 @@ body {
 
 }
 
-/* Info Title */
-.cv-title {
+/* Home Page Title */
+.welcome-title {
     display: flex;
     justify-content: center;
-
+    flex-wrap: wrap;
 
 }
 
-#cv {
+#title {
     text-align: center;
     font-size: 5rem;
     margin-top: 2rem;
@@ -277,105 +268,89 @@ body {
 
 }
 
-/* Info */
-.chipotle-title {
+/* Gif of Cat */
+.cat-roams {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 6rem;
-    padding-left: 20rem;
-    padding-right: 20rem;
+    margin-top: 9rem;
 
-
-    /* border: 1px solid black; */
 
 }
 
-#chipotle {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 3rem;
-
-
-    /* border: 1px solid red; */
-
-}
-
-#chipotle-info {
-    margin-top: 2rem;
-    padding: 1rem;
+#cat-in-field {
+    height: 20rem;
 
 
     box-shadow: 0 1px 20px 2px grey;
     border: 2px solid black;
-    border-radius: 2rem;
 
 }
 
-.audi-title {
+/* Quote */
+.dream-title {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 6rem;
-    padding-left: 20rem;
-    padding-right: 20rem;
 
-
-    /* border: 1px solid black; */
 
 }
 
-#audi {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 3rem;
-
-
-    /* border: 1px solid red; */
-
-}
-
-#audi-info {
+#dream {
+    text-align: center;
+    font-size: 1.5rem;
     margin-top: 2rem;
     padding: 1rem;
 
-
-    box-shadow: 0 1px 20px 2px grey;
-    border: 2px solid black;
-    border-radius: 2rem;
+    border: 3px solid black;
 
 }
 
-.bootcamp-title {
+/* Title For Socials */
+.social-title {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 6rem;
-    padding-left: 20rem;
-    padding-right: 20rem;
-
-
-    /* border: 1px solid black; */
+    margin-top: 18rem;
+    margin-bottom: .5rem;
 
 }
 
-#bootcamp {
+#socials {
+    font-size: 1.5rem;
+
+
+}
+
+/* Socials Icons */
+.TIG-all {
     display: flex;
-    flex-wrap: wrap;
-    font-size: 3rem;
+    justify-content: center;
 
-
-    /* border: 1px solid red; */
 
 }
 
-#bootcamp-info {
-    margin-top: 2rem;
-    padding: 1rem;
+#twitter {
+    height: 3rem;
+    width: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+
+}
+
+#github {
+    height: 3rem;
+    width: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 
 
-    box-shadow: 0 1px 20px 2px grey;
-    border: 2px solid black;
-    border-radius: 2rem;
+}
+
+#insta {
+    height: 3rem;
+    width: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
 
 }

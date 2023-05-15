@@ -9,7 +9,7 @@
 .all {
     background: linear-gradient(skyblue, beige);
     margin-top: 3rem;
-    height: 120rem;
+    height: 75rem;
 
 }
 
@@ -40,8 +40,6 @@ body {
     width: 30rem;
     height: 3rem;
 
-    /* border: 1px solid black; */
-
 }
 
 #hmTitle {
@@ -49,8 +47,6 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-
-    /* border: 1px solid red; */
 
 }
 
@@ -63,8 +59,6 @@ body {
     height: 2.7rem;
     width: 2.7rem;
 
-    /* border: 1px solid red; */
-
 }
 
 #sandygast-right {
@@ -73,8 +67,6 @@ body {
     align-items: center;
     height: 2.7rem;
     width: 2.7rem;
-
-    /* border: 1px solid red; */
 
 }
 
@@ -87,8 +79,6 @@ body {
     align-items: flex-end;
     margin-right: .5rem;
     width: 8rem;
-
-    /* border: 1px solid red; */
 
 }
 
@@ -124,8 +114,6 @@ body {
     margin-right: .5rem;
     width: 9rem;
 
-    /* border: 1px solid red; */
-
 }
 
 #b2 {
@@ -158,8 +146,6 @@ body {
     justify-content: center;
     align-items: flex-end;
     width: 14rem;
-
-    /* border: 1px solid red; */
 
 }
 
@@ -195,8 +181,6 @@ body {
     margin-right: .1rem;
     width: 7rem;
 
-    /* border: 1px solid red; */
-
 }
 
 #b4 {
@@ -231,8 +215,6 @@ body {
     margin-right: 2rem;
     width: 10rem;
 
-    /* border: 1px solid red; */
-
 }
 
 #b5 {
@@ -259,15 +241,15 @@ body {
 
 }
 
-/* Info Title */
-.cv-title {
+/* Contact Me Page Title */
+.contact-title {
     display: flex;
     justify-content: center;
 
 
 }
 
-#cv {
+#contact-me {
     text-align: center;
     font-size: 5rem;
     margin-top: 2rem;
@@ -277,105 +259,44 @@ body {
 
 }
 
-/* Info */
-.chipotle-title {
+/* Overlord Gif */
+.ainz-desp {
     display: flex;
+    margin-top: 4rem;
     justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 6rem;
-    padding-left: 20rem;
-    padding-right: 20rem;
-
-
-    /* border: 1px solid black; */
 
 }
 
-#chipotle {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 3rem;
+#ainz-gif{
 
 
-    /* border: 1px solid red; */
-
-}
-
-#chipotle-info {
-    margin-top: 2rem;
-    padding: 1rem;
-
-
-    box-shadow: 0 1px 20px 2px grey;
-    border: 2px solid black;
+    box-shadow: 0 1px 20px 2px beige;
+    border: 3px solid black;
     border-radius: 2rem;
 
 }
 
-.audi-title {
+/* First and Last Name Button */
+.firstlast-all {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     margin-top: 6rem;
-    padding-left: 20rem;
-    padding-right: 20rem;
-
-
-    /* border: 1px solid black; */
 
 }
 
-#audi {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 3rem;
-
-
-    /* border: 1px solid red; */
+#fname {
+    margin-right: 1rem;
 
 }
 
-#audi-info {
-    margin-top: 2rem;
-    padding: 1rem;
-
-
-    box-shadow: 0 1px 20px 2px grey;
-    border: 2px solid black;
-    border-radius: 2rem;
-
-}
-
-.bootcamp-title {
+.email-all {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 6rem;
-    padding-left: 20rem;
-    padding-right: 20rem;
-
-
-    /* border: 1px solid black; */
+    margin-top: 3rem;
 
 }
 
-#bootcamp {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 3rem;
-
-
-    /* border: 1px solid red; */
-
-}
-
-#bootcamp-info {
-    margin-top: 2rem;
-    padding: 1rem;
-
-
-    box-shadow: 0 1px 20px 2px grey;
-    border: 2px solid black;
-    border-radius: 2rem;
+#email {
+    margin-right: 1rem;
 
 }
